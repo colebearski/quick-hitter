@@ -71,3 +71,18 @@
 #video-play a {
   color: #fff;
 }
+
+/****** About Page *****/
+#page-header {
+  height: 200px;
+  background: url("../img/image-2.png");
+  background-position: 0 -530px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.about-img {
+  margin-top: -30px;
+}
