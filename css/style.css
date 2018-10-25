@@ -75,12 +75,22 @@
   color: #fff;
 }
 
-/****** About Page *****/
-/***********************/
-
 #page-header {
   height: 200px;
   background: url("../img/image-2.png");
+  background-position: 0 -530px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+/****** About Page *****/
+/***********************/
+
+#about-header {
+  height: 200px;
+  background: url("../img/image-7.png");
   background-position: 0 -530px;
   background-attachment: fixed;
   color: #fff;
@@ -95,6 +105,16 @@
 /****** Services Page *****/
 /**************************/
 
+#services-header {
+  height: 200px;
+  background: url("../img/image-8.png");
+  background-position: 10% 112%;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
 #faq .card {
   border: #444;
 }
@@ -107,4 +127,38 @@
 #faq .card-body,
 #faq .card-header {
   background: #333;
+}
+
+/********* Footer *********/
+/**************************/
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+/******** Blog Page *******/
+/**************************/
+
+#blog-header {
+  height: 200px;
+  background: url("../img/image-9.png");
+  background-position: 10% 43%;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+/****** Contact Page ******/
+/**************************/
+
+#contact-header {
+  height: 200px;
+  background: url("../img/image-10.png");
+  background-position: 0% 75%;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
 }
